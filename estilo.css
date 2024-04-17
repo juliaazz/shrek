@@ -1,4 +1,14 @@
-h1{
-    font-size: 70px;
-    color: rgb(105, 105, 105);
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.principal{
+    background-image: url ();
+background-repeat: no-repeat;
+background-size: contain;
+}
+
+.container{
+    height: 100vh;
 }
