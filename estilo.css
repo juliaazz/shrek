@@ -1,4 +1,16 @@
+:root{
+    --cor-texto-principal: #ffffff;
+    --cor-texto-secundario: #ffffff;
+    --botao-principal: 
+    --botao-secundario
+
+}
+
+
+
+
 *{
+
     margin: 0;
     padding: 0;
 }
@@ -9,6 +21,4 @@ background-repeat: no-repeat;
 background-size: contain;
 }
 
-.container{
-    height: 100vh;
-}
+.container
