@@ -36,3 +36,7 @@ background-size: contain;
     background-color: transparent;
     border: 2px solid var(--cor-texto-principal);
 }
+
+.container--caixa{
+    margin: 0 6em;
+}
