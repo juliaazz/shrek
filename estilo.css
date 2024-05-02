@@ -3,24 +3,36 @@
     --cor-texto-secundario: #ffffff;
     --botao-principal: #1609ce;
     --botao-secundario: #96939e;
-
 }
 
-
 *{
-
     margin: 0;
     padding: 0;
 }
+
 body{
-    background-image: url("./8A4183B8-7D89-4E8B-B7A2-7975AD6EE99C.jpeg");
+    background-color: var(--botao-secundario);
+    color: var(--cor-texto-principal);
 }
+
 .principal{
-    
+    background-image: url("./8A4183B8-7D89-4E8B-B7A2-7975AD6EE99C.jpeg");
 background-repeat: no-repeat;
 background-size: contain;
 }
 
 .container{
     min-height: 100vh;
+}
+.container--botao{
+    background-color: var(--cor-texto-principal);
+    color: var(--cor-texto-principal);
+    padding: 1em;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.botao--secundario{
+    background-color: transparent;
+    border: 2px solid var(--cor-texto-principal);
 }
