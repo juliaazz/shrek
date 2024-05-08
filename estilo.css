@@ -28,11 +28,13 @@ background-size: cover;
     min-height: 100vh;
 }
 .container--botao{
-    background-color: var(--cor-texto-principal);
+    background-color: var(--botao-principal);
     color: var(--cor-texto-principal);
     padding: 1em;
     border-radius: 5px;
     text-decoration: none;
+    display: block;
+    margin-bottom: 2em;
 }
 
 .botao--secundario{
