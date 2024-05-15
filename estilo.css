@@ -45,3 +45,6 @@ background-size: cover;
 .container--caixa{
     margin: 0 6em;
 }
+.container--img{
+    margin: 1em 0 2em 0;
+}
