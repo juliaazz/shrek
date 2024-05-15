@@ -25,7 +25,9 @@ background-size: cover;
 }
 
 .container{
-    min-height: 100vh;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .container--botao{
     background-color: var(--botao-principal);
