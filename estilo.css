@@ -53,5 +53,11 @@ background-size: cover;
 .secundario{
     align: center;
     margin:0 10em;
-    
+
+}
+.descricao--titulo{
+    font-weight: 700;
+    font-size: 48px;
+    color:var(--cor-texto-principal);
+    margin-bottom:0.1em;
 }
